@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 2;
+    background-image: url(krmipth.jpeg);
+}
+
+header {
+    background-color: #4d49c4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #9f8fea;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #454c8e;
+}
+
+.frame-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+iframe {
+    width: 80%;
+    height: 400px;
+    border: 2px solid #010617;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Pertemuan01"
+		},
+		{
+			"path": "../Pertemuan02"
+		},
+		{
+			"path": "../Pertemuan03"
+		},
+		{
+			"path": "../Pertemuan04"
+		},
+		{
+			"path": "../Pertemuan05"
+		},
+		{
+			"path": "../Pertemuan06"
+		},
+		{
+			"path": "../Pertemuan07"
+		},
+		{
+			"path": "../Pertemuan08"
+		},
+		{
+			"path": "../Pertemuan09"
+		},
+		{
+			"path": "../Pertemuan10"
+		},
+		{
+			"path": "../Pertemuan11"
+		},
+		{
+			"path": "../Pertemuan12"
+		},
+		{
+			"path": "../Pertemuan13"
+		},
+		{
+			"path": "../Pertemuan14"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PemWebUTS"
+	}
+}

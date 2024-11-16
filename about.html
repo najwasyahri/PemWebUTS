@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Desktop View</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url(pth.jpeg);
+        }
+
+        h1 {
+            text-align: center;
+            color: #8637cf;
+        }
+
+        
+        .table-container {
+            width: 60%;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #b5aede);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4f4db3;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        tr:nth-child(even) {
+            background-color: #b5aede;
+        }
+
+        tr:hover {
+            background-image: url(pth.jpeg)
+        }
+
+
+        @media (max-width: 768px) {
+            .table-container {
+                width: 90%;
+            }
+            
+            th, td {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <h1>Biodata</h1>
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Nama:</td>
+                <td>Najwa Putri Syahri</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir:</td>
+                <td>Jakarta, 01 Januari 2006</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>Perempuan</td>
+            </tr>
+            <tr>
+                <td>Alamat:</td>
+                <td>Jl. Kemanggisan ilir 3, Jakarta</td>
+            </tr>
+            <tr>
+                <td>Pendidikan:</td>
+                <td>Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>Memasak, Bersepeda, Berenang</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
